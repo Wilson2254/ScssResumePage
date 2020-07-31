@@ -1,4 +1,24 @@
-.test {
-    font-size: 80px;
-    color: orange;
+* {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1400px;
+    display: flex;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    background-color: #373434;
+    .info__left {
+        color: white;
+        .info__left_size {
+            width: 250px;
+            height: 350px;
+            margin-top: 60px;
+        }
+    }
 }
