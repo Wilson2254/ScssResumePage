@@ -49,6 +49,16 @@ body {
     .info .info__right .info__right__site_top-right {
       text-align: right;
       margin-top: 8px; }
+      .info .info__right .info__right__phone_top-right .info__right__site_top-right_hover,
+      .info .info__right .info__right__site_top-right .info__right__site_top-right_hover {
+        color: white;
+        text-decoration: none;
+        transition-property: all;
+        transition-duration: .2s;
+        transition-delay: 0.1s; }
+        .info .info__right .info__right__phone_top-right .info__right__site_top-right_hover:hover,
+        .info .info__right .info__right__site_top-right .info__right__site_top-right_hover:hover {
+          color: gray; }
     .info .info__right .info__right__phone_green {
       color: #53ab55; }
     .info .info__right .info__right__phone_blue {

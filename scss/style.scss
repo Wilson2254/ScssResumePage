@@ -60,6 +60,16 @@ body {
         .info__right__site_top-right {
             text-align: right;
             margin-top: 8px;
+            .info__right__site_top-right_hover {
+                color: white;
+                text-decoration: none;
+                transition-property: all;
+                transition-duration: .2s;
+                transition-delay: 0.1s;
+                &:hover {
+                    color: gray;
+                }
+            }
         }
         .info__right__phone_green {
             color: #53ab55;
