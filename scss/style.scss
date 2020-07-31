@@ -29,17 +29,18 @@ body {
             width: 250px;
             height: 350px;
             margin: 60px 0;
+            border-radius: 3%;
         }
         .info__left__fio-position {
             margin-left: 75px;
         }
         .info__left__fio-position_size-12 {
             font-size: 22pt;
-            margin-bottom: 10px;
+            margin-bottom: 12px;
         }
         .info__left__fio-position_size-16 {
             font-size: 30pt;
-            margin-bottom: 10px;
+            margin-bottom: 12px;
         }
     }
     .info__right {
@@ -53,11 +54,21 @@ body {
         .info__right__email,
         .info__right__phone,
         .info__right__site {
-            margin-bottom: 18px;
+            margin-bottom: 20px;
         }
         .info__right__phone_top-right,
         .info__right__site_top-right {
             text-align: right;
+            margin-top: 8px;
+        }
+        .info__right__phone_green {
+            color: #53ab55;
+        }
+        .info__right__phone_blue {
+            color: #39a0ce;
+        }
+        .info__right__phone_purple {
+            color: #774f96;
         }
     }
 }

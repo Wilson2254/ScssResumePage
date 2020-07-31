@@ -23,15 +23,16 @@ body {
     .info .info__left .info__left__img_size {
       width: 250px;
       height: 350px;
-      margin: 60px 0; }
+      margin: 60px 0;
+      border-radius: 3%; }
     .info .info__left .info__left__fio-position {
       margin-left: 75px; }
     .info .info__left .info__left__fio-position_size-12 {
       font-size: 22pt;
-      margin-bottom: 10px; }
+      margin-bottom: 12px; }
     .info .info__left .info__left__fio-position_size-16 {
       font-size: 30pt;
-      margin-bottom: 10px; }
+      margin-bottom: 12px; }
   .info .info__right {
     display: flex;
     flex-direction: column;
@@ -43,7 +44,14 @@ body {
     .info .info__right .info__right__email,
     .info .info__right .info__right__phone,
     .info .info__right .info__right__site {
-      margin-bottom: 18px; }
+      margin-bottom: 20px; }
     .info .info__right .info__right__phone_top-right,
     .info .info__right .info__right__site_top-right {
-      text-align: right; }
+      text-align: right;
+      margin-top: 8px; }
+    .info .info__right .info__right__phone_green {
+      color: #53ab55; }
+    .info .info__right .info__right__phone_blue {
+      color: #39a0ce; }
+    .info .info__right .info__right__phone_purple {
+      color: #774f96; }
