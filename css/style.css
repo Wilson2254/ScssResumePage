@@ -4,16 +4,46 @@
   padding: 0; }
 
 body {
-  width: 1400px;
-  display: flex; }
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  body header {
+    width: 1500px; }
 
 .info {
   display: flex;
   justify-content: space-between;
   background-color: #373434; }
   .info .info__left {
-    color: white; }
-    .info .info__left .info__left_size {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px; }
+    .info .info__left .info__left__img_size {
       width: 250px;
       height: 350px;
-      margin-top: 60px; }
+      margin: 60px 0; }
+    .info .info__left .info__left__fio-position {
+      margin-left: 75px; }
+    .info .info__left .info__left__fio-position_size-12 {
+      font-size: 22pt;
+      margin-bottom: 10px; }
+    .info .info__left .info__left__fio-position_size-16 {
+      font-size: 30pt;
+      margin-bottom: 10px; }
+  .info .info__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 90px;
+    color: white;
+    font-size: 16pt; }
+    .info .info__right .info__right__city,
+    .info .info__right .info__right__email,
+    .info .info__right .info__right__phone,
+    .info .info__right .info__right__site {
+      margin-bottom: 18px; }
+    .info .info__right .info__right__phone_top-right,
+    .info .info__right .info__right__site_top-right {
+      text-align: right; }
