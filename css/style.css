@@ -80,7 +80,7 @@ body {
       color: #774f96; }
 
 main {
-  height: 500px;
+  height: 1500px;
   border: 1px solid; }
   main .biography-and-links {
     display: flex;
@@ -94,7 +94,8 @@ main {
       width: 65%; }
       main .biography-and-links .biography-and-links__biography h2 {
         margin-bottom: 15px;
-        font-size: 16pt; }
+        font-size: 16pt;
+        text-transform: uppercase; }
       main .biography-and-links .biography-and-links__biography p {
         line-height: 30px; }
     main .biography-and-links .vertical-line {
@@ -118,3 +119,38 @@ main {
             color: #b1b1b0; }
         main .biography-and-links .biography-and-links__links p:hover {
           animation: bounce 1s; }
+  main .education-and-exp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 50px 0 50px; }
+    main .education-and-exp .education-and-exp-info {
+      font-size: 14pt;
+      width: 50%; }
+      main .education-and-exp .education-and-exp-info h2 {
+        margin-bottom: 15px;
+        font-size: 16pt;
+        text-transform: uppercase; }
+      main .education-and-exp .education-and-exp-info .content-line-dots {
+        display: flex;
+        flex-direction: row; }
+        main .education-and-exp .education-and-exp-info .content-line-dots .education-and-exp-info__line-dots {
+          display: flex;
+          flex-direction: column; }
+          main .education-and-exp .education-and-exp-info .content-line-dots .education-and-exp-info__line-dots .education-and-exp-info__dot {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background-color: black; }
+          main .education-and-exp .education-and-exp-info .content-line-dots .education-and-exp-info__line-dots .education-and-exp-info__line {
+            border-left: 2px solid black;
+            height: 170px;
+            margin-left: 6px; }
+        main .education-and-exp .education-and-exp-info .content-line-dots .content {
+          margin-left: 40px;
+          line-height: 35px; }
+          main .education-and-exp .education-and-exp-info .content-line-dots .content .education-and-exp-info__head_upper-gray {
+            text-transform: uppercase;
+            color: #575858;
+            font-weight: 600; }
