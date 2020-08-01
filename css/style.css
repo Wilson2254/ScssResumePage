@@ -80,7 +80,7 @@ body {
       color: #774f96; }
 
 main {
-  height: 1500px;
+  height: 1300px;
   border: 1px solid; }
   main .biography-and-links {
     display: flex;
@@ -158,36 +158,36 @@ main {
             font-weight: 600; }
           main .education-and-exp .education-and-exp-info .content-line-dots .content .other-content {
             margin-top: 20px; }
-  main .skills-and-inerest {
+  main .skills-and-interest {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     align-items: flex-start;
     margin: 30px 50px 0 50px; }
-    main .skills-and-inerest .skills-and-inerest__skills {
+    main .skills-and-interest .skills-and-interest__skills {
       width: 40%;
       font-size: 14pt;
       font-weight: 600; }
-      main .skills-and-inerest .skills-and-inerest__skills h2 {
+      main .skills-and-interest .skills-and-interest__skills h2 {
         margin-bottom: 15px;
         font-size: 16pt;
         text-transform: uppercase; }
-      main .skills-and-inerest .skills-and-inerest__skills .skills-and-inerest__skils-point {
+      main .skills-and-interest .skills-and-interest__skills .skills-and-interest__skils-point {
         display: flex;
         flex-direction: row;
         justify-content: space-between; }
-      main .skills-and-inerest .skills-and-inerest__skills .skills-and-inerest__list {
+      main .skills-and-interest .skills-and-interest__skills .skills-and-interest__list {
         margin-left: 0;
         list-style: none; }
-        main .skills-and-inerest .skills-and-inerest__skills .skills-and-inerest__list li {
+        main .skills-and-interest .skills-and-interest__skills .skills-and-interest__list li {
           position: relative;
           margin-bottom: 1.5em;
           border: 3px solid black;
           padding: 0.6em;
           border-radius: 4px;
           color: #231F20; }
-          main .skills-and-inerest .skills-and-inerest__skills .skills-and-inerest__list li::before {
+          main .skills-and-interest .skills-and-interest__skills .skills-and-interest__list li::before {
             position: absolute;
             top: -0.7em;
             padding-left: 0.4em;
@@ -197,3 +197,25 @@ main {
             background: white;
             border-radius: 50%;
             content: '*'; }
+    main .skills-and-interest .skills-and-interest__interest {
+      width: 46%;
+      font-size: 14pt;
+      text-transform: uppercase; }
+      main .skills-and-interest .skills-and-interest__interest h2 {
+        margin-bottom: 15px;
+        font-size: 16pt;
+        text-transform: uppercase; }
+      main .skills-and-interest .skills-and-interest__interest .skills-and-interest__interest-list {
+        display: flex; }
+        main .skills-and-interest .skills-and-interest__interest .skills-and-interest__interest-list .skills-and-interest__interest-list_right {
+          margin-left: 120px; }
+        main .skills-and-interest .skills-and-interest__interest .skills-and-interest__interest-list .skills-and-interes__item {
+          margin-bottom: 20px;
+          text-align: center; }
+          main .skills-and-interest .skills-and-interest__interest .skills-and-interest__interest-list .skills-and-interes__item img {
+            height: 50px;
+            width: 50px; }
+          main .skills-and-interest .skills-and-interest__interest .skills-and-interest__interest-list .skills-and-interes__item p {
+            line-height: 30px; }
+            main .skills-and-interest .skills-and-interest__interest .skills-and-interest__interest-list .skills-and-interes__item p span {
+              font-weight: bold; }

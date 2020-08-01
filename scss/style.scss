@@ -115,7 +115,7 @@ body {
 }
 
 main {
-    height: 1500px;
+    height: 1300px;
     border: 1px solid;
     .biography-and-links {
         @include main-element-position();
@@ -205,23 +205,23 @@ main {
             }
         }
     }
-    .skills-and-inerest {
+    .skills-and-interest {
         @include main-element-position();
         align-items: flex-start;
         margin: 30px 50px 0 50px;
-        .skills-and-inerest__skills {
+        .skills-and-interest__skills {
             width: 40%;
             font-size: 14pt;
             font-weight: 600;
             h2 {
                 @include header2();
             }
-            .skills-and-inerest__skils-point {
+            .skills-and-interest__skils-point {
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
             }
-            .skills-and-inerest__list {
+            .skills-and-interest__list {
                 margin-left: 0;
                 list-style: none;
                 li {
@@ -241,6 +241,34 @@ main {
                         background: white;
                         border-radius: 50%;
                         content: '*';
+                    }
+                }
+            }
+        }
+        .skills-and-interest__interest {
+            width: 46%;
+            font-size: 14pt;
+            text-transform: uppercase;
+            h2 {
+                @include header2();
+            }
+            .skills-and-interest__interest-list {
+                display: flex;
+                .skills-and-interest__interest-list_right {
+                    margin-left: 120px;
+                }
+                .skills-and-interes__item {
+                    margin-bottom: 20px;
+                    text-align: center;
+                    img {
+                        height: 50px;
+                        width: 50px;
+                    }
+                    p {
+                        line-height: 30px;
+                        span {
+                            font-weight: bold;
+                        }
                     }
                 }
             }
