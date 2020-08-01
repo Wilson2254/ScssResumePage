@@ -145,7 +145,7 @@ main {
             height: 15px;
             border-radius: 50%;
             background-color: black; }
-          main .education-and-exp .education-and-exp-info .content-line-dots .education-and-exp-info__line-dots .education-and-exp-info__line {
+          main .education-and-exp .education-and-exp-info .content-line-dots .education-and-exp-info__line-dots .education-and-exp-info_line-height {
             border-left: 2px solid black;
             height: 250px;
             margin-left: 6.5px; }
@@ -158,3 +158,42 @@ main {
             font-weight: 600; }
           main .education-and-exp .education-and-exp-info .content-line-dots .content .other-content {
             margin-top: 20px; }
+  main .skills-and-inerest {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-items: flex-start;
+    margin: 30px 50px 0 50px; }
+    main .skills-and-inerest .skills-and-inerest__skills {
+      width: 40%;
+      font-size: 14pt;
+      font-weight: 600; }
+      main .skills-and-inerest .skills-and-inerest__skills h2 {
+        margin-bottom: 15px;
+        font-size: 16pt;
+        text-transform: uppercase; }
+      main .skills-and-inerest .skills-and-inerest__skills .skills-and-inerest__skils-point {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; }
+      main .skills-and-inerest .skills-and-inerest__skills .skills-and-inerest__list {
+        margin-left: 0;
+        list-style: none; }
+        main .skills-and-inerest .skills-and-inerest__skills .skills-and-inerest__list li {
+          position: relative;
+          margin-bottom: 1.5em;
+          border: 3px solid black;
+          padding: 0.6em;
+          border-radius: 4px;
+          color: #231F20; }
+          main .skills-and-inerest .skills-and-inerest__skills .skills-and-inerest__list li::before {
+            position: absolute;
+            top: -0.7em;
+            padding-left: 0.4em;
+            padding-right: 0.4em;
+            font-size: 16px;
+            font-weight: bold;
+            background: white;
+            border-radius: 50%;
+            content: '*'; }

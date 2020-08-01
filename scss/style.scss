@@ -184,7 +184,7 @@ main {
                         border-radius: 50%;
                         background-color: black;
                     }
-                    .education-and-exp-info__line {
+                    .education-and-exp-info_line-height {
                         border-left: 2px solid black;
                         height: 250px;
                         margin-left: 6.5px;
@@ -200,6 +200,47 @@ main {
                     }
                     .other-content {
                         margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .skills-and-inerest {
+        @include main-element-position();
+        align-items: flex-start;
+        margin: 30px 50px 0 50px;
+        .skills-and-inerest__skills {
+            width: 40%;
+            font-size: 14pt;
+            font-weight: 600;
+            h2 {
+                @include header2();
+            }
+            .skills-and-inerest__skils-point {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .skills-and-inerest__list {
+                margin-left: 0;
+                list-style: none;
+                li {
+                    position: relative;
+                    margin-bottom: 1.5em;
+                    border: 3px solid black;
+                    padding: 0.6em;
+                    border-radius: 4px;
+                    color: #231F20;
+                    &::before {
+                        position: absolute;
+                        top: -0.7em;
+                        padding-left: 0.4em;
+                        padding-right: 0.4em;
+                        font-size: 16px;
+                        font-weight: bold;
+                        background: white;
+                        border-radius: 50%;
+                        content: '*';
                     }
                 }
             }
