@@ -141,16 +141,16 @@ main {
             margin-bottom: 30px;
             p {
                 margin-top: 30px;
-                img {
-                    width: 40px;
-                    height: 40px;
-                    margin-right: 40px;
-                    vertical-align: middle;
-                }
                 a {
                     text-decoration: none;
                     color: black;
                     font-weight: 600;
+                    img {
+                        width: 40px;
+                        height: 40px;
+                        margin-right: 40px;
+                        vertical-align: middle;
+                    }
                     .biography-and-links__links_color {
                         color: #b1b1b0;
                     }
@@ -163,10 +163,11 @@ main {
     }
     .education-and-exp {
         @include main-element-position();
+        align-items: flex-start;
         margin: 30px 50px 0 50px;
         .education-and-exp-info {
             font-size: 14pt;
-            width: 50%;
+            width: 46%;
             h2 {
                 @include header2();
             }
@@ -176,6 +177,7 @@ main {
                 .education-and-exp-info__line-dots {
                     display: flex;
                     flex-direction: column;
+                    margin-top: 10px;
                     .education-and-exp-info__dot {
                         width: 15px;
                         height: 15px;
@@ -184,17 +186,20 @@ main {
                     }
                     .education-and-exp-info__line {
                         border-left: 2px solid black;
-                        height: 170px;
-                        margin-left: 6px;
+                        height: 250px;
+                        margin-left: 6.5px;
                     }
                 }
                 .content {
-                    margin-left: 40px;
+                    margin-left: 30px;
                     line-height: 35px;
                     .education-and-exp-info__head_upper-gray {
                         text-transform: uppercase;
                         color: #575858;
                         font-weight: 600;
+                    }
+                    .other-content {
+                        margin-top: 20px;
                     }
                 }
             }

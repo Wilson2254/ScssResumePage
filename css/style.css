@@ -106,15 +106,15 @@ main {
       margin-bottom: 30px; }
       main .biography-and-links .biography-and-links__links p {
         margin-top: 30px; }
-        main .biography-and-links .biography-and-links__links p img {
-          width: 40px;
-          height: 40px;
-          margin-right: 40px;
-          vertical-align: middle; }
         main .biography-and-links .biography-and-links__links p a {
           text-decoration: none;
           color: black;
           font-weight: 600; }
+          main .biography-and-links .biography-and-links__links p a img {
+            width: 40px;
+            height: 40px;
+            margin-right: 40px;
+            vertical-align: middle; }
           main .biography-and-links .biography-and-links__links p a .biography-and-links__links_color {
             color: #b1b1b0; }
         main .biography-and-links .biography-and-links__links p:hover {
@@ -124,10 +124,11 @@ main {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    align-items: flex-start;
     margin: 30px 50px 0 50px; }
     main .education-and-exp .education-and-exp-info {
       font-size: 14pt;
-      width: 50%; }
+      width: 46%; }
       main .education-and-exp .education-and-exp-info h2 {
         margin-bottom: 15px;
         font-size: 16pt;
@@ -137,7 +138,8 @@ main {
         flex-direction: row; }
         main .education-and-exp .education-and-exp-info .content-line-dots .education-and-exp-info__line-dots {
           display: flex;
-          flex-direction: column; }
+          flex-direction: column;
+          margin-top: 10px; }
           main .education-and-exp .education-and-exp-info .content-line-dots .education-and-exp-info__line-dots .education-and-exp-info__dot {
             width: 15px;
             height: 15px;
@@ -145,12 +147,14 @@ main {
             background-color: black; }
           main .education-and-exp .education-and-exp-info .content-line-dots .education-and-exp-info__line-dots .education-and-exp-info__line {
             border-left: 2px solid black;
-            height: 170px;
-            margin-left: 6px; }
+            height: 250px;
+            margin-left: 6.5px; }
         main .education-and-exp .education-and-exp-info .content-line-dots .content {
-          margin-left: 40px;
+          margin-left: 30px;
           line-height: 35px; }
           main .education-and-exp .education-and-exp-info .content-line-dots .content .education-and-exp-info__head_upper-gray {
             text-transform: uppercase;
             color: #575858;
             font-weight: 600; }
+          main .education-and-exp .education-and-exp-info .content-line-dots .content .other-content {
+            margin-top: 20px; }
