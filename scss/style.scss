@@ -47,6 +47,7 @@ body {
     justify-content: center;
     width: 1300px;
     margin: auto;
+    background-color: #F5F5DC;
 }
 
 .info {
@@ -117,6 +118,7 @@ body {
 main {
     height: 1300px;
     border: 1px solid;
+    background-color: white;
     .biography-and-links {
         @include main-element-position();
         margin: 20px 50px 0 50px;
@@ -226,7 +228,7 @@ main {
                 list-style: none;
                 li {
                     position: relative;
-                    margin-bottom: 1.5em;
+                    margin-bottom: 1.3em;
                     border: 3px solid black;
                     padding: 0.6em;
                     border-radius: 4px;
